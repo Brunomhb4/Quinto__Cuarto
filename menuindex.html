@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuatro Quintos | Experiencia Gastronómica Sensorial</title>
+    <meta name="description" content="Vive una experiencia gastronómica única con nuestro menú a ciegas, diseñado para potenciar tus sentidos del olfato y gusto">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Raleway:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="blur-overlay"></div>
+    <div class="content-wrapper">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="./imagenes/cuatro quintos logo .jpg" alt="Logo Cuatro Quintos" class="logo-img">
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#intro" class="nav-link">Inicio</a></li>
+                    <li><a href="#gallery" class="nav-link">Galería</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonios</a></li>
+                    <li><a href="#contact" class="nav-link">Contacto</a></li>
+                    <li><a href="#" class="btn-reserva">Reservar</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="hero-content">
+                <h1 class="hero-title">Descubre el placer de degustar sin ver</h1>
+                <p class="hero-subtitle">Una experiencia sensorial que transformará tu percepción del sabor</p>
+                <a href="#contact" class="btn-primary">Reserva tu experiencia</a>
+            </div>
+        </section>
+
+        <div class="container">
+            <section id="intro" class="intro">
+                <div class="section-header">
+                    <span class="section-subtitle">Nuestra propuesta</span>
+                    <h2>¿Qué objetivos tiene este proyecto?</h2>
+                </div>
+                <div class="intro-content">
+                    <p class="intro-text">Un menú a ciegas es una experiencia gastronómica que busca potenciar los sentidos del olfato y el gusto, a través de una cena en la que los comensales tienen los ojos vendados, creando una conexión más íntima con la comida.</p>
+                    <ul class="features-list">
+                        <li class="feature-item">
+                            <i class="fas fa-utensils feature-icon"></i>
+                            <div class="feature-content">
+                                <h3>Cena a oscuras</h3>
+                                <p>Los comensales disfrutan de una experiencia gastronómica completa sin el sentido de la vista.</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <i class="fas fa-eye-slash feature-icon"></i>
+                            <div class="feature-content">
+                                <h3>Personal especializado</h3>
+                                <p>Nuestros camareros son invidentes o tienen deficiencia visual, ofreciendo una atención única.</p>
+                            </div>
+                        </li>
+                        <li class="feature-item">
+                            <i class="fas fa-gift feature-icon"></i>
+                            <div class="feature-content">
+                                <h3>Menú sorpresa</h3>
+                                <p>Degusta platos cuidadosamente seleccionados que serán revelados al final de la experiencia.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section id="gallery" class="gallery">
+                <div class="section-header">
+                    <span class="section-subtitle">Nuestras Experiencias</span>
+                    <h2>Galería Multimedia</h2>
+                </div>
+
+                <div class="gallery-grid">
+                    <!-- Imagen con efecto lightbox -->
+                    <div class="gallery-item">
+                        <img src="imagenes/barco.jpg" alt="Experiencia gastronómica" class="gallery-img">
+                        <div class="gallery-overlay">
+                            <i class="fas fa-search-plus"></i>
+                        </div>
+                    </div>
+
+                    <!-- Videos con controles personalizados -->
+                    <div class="gallery-item video-item">
+                        <div class="video-container">
+                            <video class="gallery-video" muted loop>
+                                <source src="./Videos/cake.mp4" type="video/mp4">
+                                Tu navegador no soporta la etiqueta de video.
+                            </video>
+                            <div class="video-controls">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                                <button class="mute-btn"><i class="fas fa-volume-up"></i></button>
+                            </div>
+                        </div>
+                        <div class="video-caption">
+                            <p>Descripción del video 1</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item video-item">
+                        <div class="video-container">
+                            <video class="gallery-video" muted loop>
+                                <source src="./Videos/Comida_China.mp4" type="video/mp4">
+                                Tu navegador no soporta la etiqueta de video.
+                            </video>
+                            <div class="video-controls">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                                <button class="mute-btn"><i class="fas fa-volume-up"></i></button>
+                            </div>
+                        </div>
+                        <div class="video-caption">
+                            <p>Descripción del video 2</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item video-item">
+                        <div class="video-container">
+                            <video class="gallery-video" muted loop>
+                                <source src="./Videos/comida_corrida.mp4" type="video/mp4">
+                                Tu navegador no soporta la etiqueta de video.
+                            </video>
+                            <div class="video-controls">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                                <button class="mute-btn"><i class="fas fa-volume-up"></i></button>
+                            </div>
+                        </div>
+                        <div class="video-caption">
+                            <p>Descripción del video 3</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item video-item">
+                        <div class="video-container">
+                            <video class="gallery-video" muted loop>
+                                <source src="./Videos/Comida_corrida2.mp4" type="video/mp4">
+                                Tu navegador no soporta la etiqueta de video.
+                            </video>
+                            <div class="video-controls">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                                <button class="mute-btn"><i class="fas fa-volume-up"></i></button>
+                            </div>
+                        </div>
+                        <div class="video-caption">
+                            <p>Descripción del video 4</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item video-item">
+                        <div class="video-container">
+                            <video class="gallery-video" muted loop>
+                                <source src="./Videos/Pasteles.mp4" type="video/mp4">
+                                Tu navegador no soporta la etiqueta de video.
+                            </video>
+                            <div class="video-controls">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                                <button class="mute-btn"><i class="fas fa-volume-up"></i></button>
+                            </div>
+                        </div>
+                        <div class="video-caption">
+                            <p>Descripción del video 5</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item video-item">
+                        <div class="video-container">
+                            <video class="gallery-video" muted loop>
+                                <source src="./Videos/Postres.mp4" type="video/mp4">
+                                Tu navegador no soporta la etiqueta de video.
+                            </video>
+                            <div class="video-controls">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                                <button class="mute-btn"><i class="fas fa-volume-up"></i></button>
+                            </div>
+                        </div>
+                        <div class="video-caption">
+                            <p>Descripción del video 6</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item video-item">
+                        <div class="video-container">
+                            <video class="gallery-video" muted loop>
+                                <source src="./Videos/te_helado.mp4" type="video/mp4">
+                                Tu navegador no soporta la etiqueta de video.
+                            </video>
+                            <div class="video-controls">
+                                <button class="play-btn"><i class="fas fa-play"></i></button>
+                                <button class="mute-btn"><i class="fas fa-volume-up"></i></button>
+                            </div>
+                        </div>
+                        <div class="video-caption">
+                            <p>Descripción del video 7</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lightbox para imágenes -->
+                <div class="lightbox">
+                    <span class="close-btn">&times;</span>
+                    <img class="lightbox-content" id="lightbox-img">
+                    <div class="lightbox-caption"></div>
+                </div>
+            </section>
+
+            <section id="testimonials" class="testimonials">
+                <div class="section-header">
+                    <span class="section-subtitle">Lo que dicen</span>
+                    <h2>Testimonios</h2>
+                </div>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <p class="testimonial-text">"Una experiencia única que todos deberían probar al menos una vez en la vida. La comida adquiere una dimensión completamente nueva."</p>
+                            <div class="testimonial-author">
+                                <img src="https://randomuser.me/api/portraits/women/45.jpg" alt="María G." class="author-img">
+                                <div class="author-info">
+                                    <h4>María González</h4>
+                                    <span>Food Blogger</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Más testimonios -->
+                </div>
+            </section>
+
+            <section id="contact" class="contact">
+                <div class="section-header">
+                    <span class="section-subtitle">Contáctanos</span>
+                    <h2>Reserva tu experiencia</h2>
+                </div>
+                <div class="contact-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Nombre completo" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Correo electrónico" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Teléfono">
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="" disabled selected>Número de personas</option>
+                                <option value="1">1 persona</option>
+                                <option value="2">2 personas</option>
+                                <option value="3-4">3-4 personas</option>
+                                <option value="5+">5+ personas</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Mensaje o requerimientos especiales"></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Enviar reserva</button>
+                    </form>
+                    <div class="contact-info">
+                        <h3>Información de contacto</h3>
+                        <ul class="info-list">
+                            <li><i class="fas fa-map-marker-alt"></i> Calle Gastronomía 123, Ciudad</li>
+                            <li><i class="fas fa-phone"></i> +123 456 7890</li>
+                            <li><i class="fas fa-envelope"></i> info@cuatroquintos.com</li>
+                            <li><i class="fas fa-clock"></i> Martes a Domingo: 18:00 - 23:00</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="./imagenes/cuatro quintos logo .jpg" alt="Logo Cuatro Quintos" class="footer-logo-img">
+                    <p>Vive la gastronomía como nunca antes la habías sentido.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces rápidos</h4>
+                    <ul>
+                        <li><a href="#intro">Inicio</a></li>
+                        <li><a href="#gallery">Galería</a></li>
+                        <li><a href="#testimonials">Testimonios</a></li>
+                        <li><a href="#contact">Contacto</a></li>
+                        <li><a href="#">Términos y condiciones</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Suscríbete</h4>
+                    <p>Recibe nuestras novedades y promociones especiales.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Tu correo electrónico">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Cuatro Quintos. Todos los derechos reservados.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" aria-label="TripAdvisor"><i class="fab fa-tripadvisor"></i></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
